@@ -32,7 +32,7 @@ function calculadora(){
         alert("operador inválido!");
         return
     }
-    if(operador != "/" || operando2 != 0 ){
+    if( (operador != "/" || operando2 != 0) && operador_valido != false){
         alert("resultado:" + 
         operando1 + " " + operador + " " + operando2 + " = " + resultado);
     }
