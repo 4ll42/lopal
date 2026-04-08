@@ -3,8 +3,15 @@ function conjunto(){
     letras.add("a");
     letras.add("b");
     letras.add("c");
+   
     
-    console.log(letras.size);
-    console.log(letras.has("a"));
+    letras.delete("c")
+    console.log(letras)
+
+    // retorna a mesma colecao que values e vice e versa
+    for(const x of letras.keys()){
+        console.log(x)
+    }
+
 }
 conjunto();
